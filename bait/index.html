@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div{
+    border: 10px solid rgb(240, 0, 0);
+    text-align: center;
+    align-items: center;
+    
+}
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>wsp</h1>
+        <img width="300px" src="660535833_1494641378722052_7136033560449212331_n.jpg" alt="">
+        <h2>this is my website</h2>
+        <button>Subscirbe</button>
+    </div>
+
+    <video autoplay muted playsinline width="600">
+        <source src="239737-34ac55c2-f09d-4990-9c72-eecd484c123d.mp3" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        const video = document.querySelector("video");
+
+        document.addEventListener("click", () => {
+            video.muted = false;
+            video.play();
+        });
+    </script>
+
+</body>
+</html>
